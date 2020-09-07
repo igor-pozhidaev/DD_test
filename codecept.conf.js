@@ -2,8 +2,9 @@ exports.config = {
   output: './output',
   helpers: {
     WebDriver: {
-      url: 'https://docdoc.ru/doctor',
-      browser: 'chrome'
+      url: 'https://docdoc.ru',
+      browser: 'chrome',
+      waitForTimeout: 8000
     }
   },
   include: {

@@ -1,0 +1,18 @@
+{
+  "name": "dd-test",
+  "version": "1.0.0",
+  "description": "dd-test",
+  "main": "codecept.conf.js",
+  "bin": {},
+  "dependencies": {
+    "codeceptjs": "^2.6.10",
+    "moment": "^2.27.0",
+    "webdriverio": "^5.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "codeceptjs run"
+  },
+  "author": "ipozhidaev",
+  "license": "ISC"
+}
