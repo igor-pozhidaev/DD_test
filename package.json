@@ -5,13 +5,15 @@
   "main": "codecept.conf.js",
   "bin": {},
   "dependencies": {
+    "allure-commandline": "^2.13.0",
     "codeceptjs": "^2.6.10",
     "moment": "^2.27.0",
     "webdriverio": "^5.23.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "codeceptjs run"
+    "test": "codeceptjs run",
+    "test-allure": "codeceptjs run --plugins allure"
   },
   "author": "ipozhidaev",
   "license": "ISC"
